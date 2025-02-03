@@ -22,7 +22,7 @@ export const DATA = {
     "Node.js",
     "Machine Learning",
     "Git",
-    "Docker"
+    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -71,112 +71,148 @@ export const DATA = {
 
   work: [
     {
-      "company": "Robral Technologies",
-      "href": "https://www.robraltechnologies.com",
-      "badges": [],
-      "location": "Remote",
-      "title": "Flutter Developer (SDE-1)",
-      "logoUrl": "/robral.jpeg",
-      "start": "Dec 2024",
-      "end": "Ongoing",
-      "description": 
-        "Joined Robral Technologies as a part-time Flutter Developer (SDE-1). Focused on Flutter-based application development and maintenance. Worked remotely with flexible hours while collaborating on various projects and meeting deadlines. Contributed to building and enhancing cross - platform applications."
+      company: "Robral Technologies",
+      href: "https://www.robraltechnologies.com",
+      badges: [],
+      location: "Remote",
+      title: "Flutter Developer (SDE-1)",
+      logoUrl: "/robral.jpeg",
+      start: "Dec 2024",
+      end: "Ongoing",
+      description:
+        "Joined Robral Technologies as a part-time Flutter Developer (SDE-1). Focused on Flutter-based application development and maintenance. Worked remotely with flexible hours while collaborating on various projects and meeting deadlines. Contributed to building and enhancing cross - platform applications.",
     },
     {
-      "company": "TheNotaryApp",
-      "href": "https://www.thenotaryapp.com",
-      "badges": [],
-      "location": "Bengaluru, India",
-      "title": "Application Developer Intern",
-      "logoUrl": "/thenotaryapp.png",
-      "start": "Jul 2024",
-      "end": "Oct 2024",
-      "description": 
-        "Worked as a Flutter Developer Intern on TheNotaryApp System, a CRM system for Notaries in the US. The project focused on tracking company-wide Signings, Invoices, and status throughout the Signing Process. Responsibilities included building responsive and intuitive UIs, implementing core functionalities and state management, and integrating REST APIs. Contributed to successful production deployments and consistently exceeded expectations with timely project completion and improved outputs."
-    }
-    
-
-    
+      company: "TheNotaryApp",
+      href: "https://www.thenotaryapp.com",
+      badges: [],
+      location: "Bengaluru, India",
+      title: "Application Developer Intern",
+      logoUrl: "/thenotaryapp.png",
+      start: "Jul 2024",
+      end: "Oct 2024",
+      description:
+        "Worked as a Flutter Developer Intern on TheNotaryApp System, a CRM system for Notaries in the US. The project focused on tracking company-wide Signings, Invoices, and status throughout the Signing Process. Responsibilities included building responsive and intuitive UIs, implementing core functionalities and state management, and integrating REST APIs. Contributed to successful production deployments and consistently exceeded expectations with timely project completion and improved outputs.",
+    },
   ],
   education: [
     {
-      "school": "Vellore Institute of Technology, Bhopal",
-      "href": "https://vitbhopal.ac.in",
-      "degree": "Integrated MTech in Cyber Security (CGPA: 8.7/10)",
-      "logoUrl": "/vit.png",
-      "start": "2021",
-      "end": "2026"
+      school: "Vellore Institute of Technology, Bhopal",
+      href: "https://vitbhopal.ac.in",
+      degree: "Integrated MTech in Cyber Security (CGPA: 8.7/10)",
+      logoUrl: "/vit.png",
+      start: "2021",
+      end: "2026",
     },
     {
-      "school": "Government Excellence Higher Secondary School, Guna",
-      "href": "https://www.mpbse.nic.in/",
-      "degree": "Class XII (Percentage: 96%)",
-      "logoUrl": "/guna_school.jpg",
-      "start": "2020",
-      "end": "2021"
+      school: "Government Excellence Higher Secondary School, Guna",
+      href: "https://www.mpbse.nic.in/",
+      degree: "Class XII (Percentage: 96%)",
+      logoUrl: "/guna_school.jpg",
+      start: "2020",
+      end: "2021",
     },
     {
-      "school": "Government Excellence Higher Secondary School, Guna",
-      "href": "https://www.mpbse.nic.in/",
-      "degree": "Class X (Percentage: 95.8%)",
-      "logoUrl": "/guna_school.jpg",
-      "start": "2018",
-      "end": "2019"
-    }
-    
+      school: "Government Excellence Higher Secondary School, Guna",
+      href: "https://www.mpbse.nic.in/",
+      degree: "Class X (Percentage: 95.8%)",
+      logoUrl: "/guna_school.jpg",
+      start: "2018",
+      end: "2019",
+    },
   ],
   projects: [
     {
-      "title": "EventEaze",
-      "href": "https://eventeaze.com",
-      "dates": "Oct 2024 - Ongoing",
-      "active": true,
-      "description":
+      title: "EventEaze",
+      href: "https://eventeaze.com",
+      dates: "Oct 2024 - Ongoing",
+      active: true,
+      description:
         "Developed a scalable event management platform to enable users from specific organizations to register, create, and manage events. The platform focuses on improving event handling and user engagement, providing features like event registration, user management, and real-time messaging with Firebase integration.",
-      "technologies": [
+      technologies: [
         "Flutter",
         "Dart",
         "Firebase",
         "GetX",
         "Real-Time Database",
-        "Authentication"
+        "Authentication",
       ],
-      "links": [
+      links: [
         {
-          "type": "Website",
-          "href": "https://eventeaze.com",
-          "icon": "<Icons.globe className='size-3' />"
-        }
+          type: "GitHub Link",
+          href: "https://eventeaze.com",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
       ],
-      "image": "",
-      "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/eventeaze-demo.mp4"
-    },    
+      image: "",
+      video: "",
+    },
     {
-      "title": "Cultural Repository",
-      "href": "https://culturalrepository.com",
-      "dates": "Jul 2024 - Sep 2024",
-      "active": false,
-      "description":
+      title: "Cultural Repository",
+      href: "https://culturalrepository.com",
+      dates: "Jul 2024 - Sep 2024",
+      active: true,
+      description:
         "Developed a cross-platform app for translating English to Braj using Flutter and Dart, with a responsive UI. Integrated a FastAPI backend to connect with a machine learning model, achieving 93% accuracy. The app also includes a dictionary and visualizes language model processes, optimized for performance and scalability using Docker and REST APIs.",
-      "technologies": [
+      technologies: [
         "Flutter",
         "Dart",
         "FastAPI",
         "Docker",
         "REST API",
-        "Machine Learning"
+        "Machine Learning",
       ],
-      "links": [
+      links: [
         {
-          "type": "Website",
-          "href": "https://culturalrepository.com",
-          "icon": "<Icons.globe className='size-3' />"
-        }
+          type: "GitHub Link",
+          href: "https://culturalrepository.com",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
       ],
-      "image": "",
-      "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/cultural-repository-demo.mp4"
+      image: "",
+      video: "",
     },
-   
+    {
+      title: "ApnaMart (E-commerce App)",
+      dates: "Oct 2024 - Dec 2024",
+      active: true,
+      description:
+        "Developed a full-featured e-commerce application where users can buy and sell products. Implemented a user-friendly UI with GetX state management for seamless navigation. Integrated Firebase for authentication, database storage, and real-time updates.",
+      technologies: ["Flutter", "Dart", "Firebase", "GetX", "Cloud Firestore"],
+      links: [
+        {
+          type: "GitHub Link",
+          href: "https://culturalrepository.com",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Chat Application",
+      dates: "Sep 2024 - Nov 2024",
+      active: true,
+      description:
+        "Built a secure real-time chat application that allows users to communicate after creating an account with their email ID. Integrated Firebase for authentication, database storage, and real-time messaging. Used GetX for efficient state management and navigation.",
+      technologies: [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "GetX",
+        "Cloud Firestore",
+        "Push Notifications",
+      ],
+      links: [
+        {
+          type: "GitHub Link",
+          href: "https://culturalrepository.com",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   hackathons: [
     {
@@ -229,13 +265,12 @@ export const DATA = {
       ],
     },
     {
-      title: "HackDavis",
+      title: "RBI@90",
       dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
+      location: "Reserve Bank of India (RBI)",
       description:
         "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+      image: "me.jpg",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
